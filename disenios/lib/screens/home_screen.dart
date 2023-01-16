@@ -1,4 +1,5 @@
 import 'package:disenios/widgets/background.dart';
+import 'package:disenios/widgets/card_table.dart';
 import 'package:disenios/widgets/custom_bottom_navigation.dart';
 import 'package:disenios/widgets/page_title.dart';
 import 'package:flutter/material.dart';
@@ -30,6 +31,8 @@ class _HomeBody extends StatelessWidget {
           //Titulos
 
           PageTitle(),
+          //Card Table
+          CardTable()
         ],
       ),
     );
